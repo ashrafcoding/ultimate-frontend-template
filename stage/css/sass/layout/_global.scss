@@ -11,6 +11,8 @@
         transition: 0.3s;
         float: right;
         will-change: width;
+        background-color: #f2f1f6;
+        min-height: 100vh;
         &.no-sidebar{
             width: 100%;
         }
