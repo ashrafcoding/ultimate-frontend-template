@@ -7,5 +7,8 @@
         background-color: #eee;
         padding: 15px;
         transition: 0.3s;
+        &.no-sidebar{
+            left: -250px;
+        }
     }
 }
