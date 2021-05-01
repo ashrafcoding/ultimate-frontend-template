@@ -1,2 +1,28 @@
 .header 
     .i.fa.fa-exchange.fa-lg.toggle-sidebar
+    .dropdown.notification-container
+        i.fa.fa-bell.fa-lg.toggle-notification#notifications(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+        .dropdown-menu(aria-labelledby='notifications')
+            .noti-head 
+                | notification 
+                span 50
+            .noti-content 
+                ul.list-unstyled 
+                    li 
+                        i.fa.fa-envelope.fa-lg
+                        | you got email from  (me@me.com)
+                    li 
+                        i.fa.fa-microphone.fa-lg.fa-fw 
+                        | you got voice message from Marck
+                    li 
+                        i.fa.fa-money.fa-lg
+                        | you have paid from  Alien
+                    li 
+                        i.fa.fa-thumbs-up.fa-lg
+                        | you got like from Medo
+                    li 
+                        i.fa.fa-trophy.fa-lg 
+                        | you got a package from  Soha
+                        
+            .noti-foot.text-center: a(href="#") View all notifications
+
