@@ -10,5 +10,8 @@ for (let i = 0 ; i < submenu.length; i++){
         submenu[i].classList.toggle('down')
         childLinks[i].classList.toggle('show')
     }
+}
 
+document.querySelector('.toggle-settings').onclick = function(){
+    document.querySelector('.settings-box').classList.toggle('hide-settings')
 }
